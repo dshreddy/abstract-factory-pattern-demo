@@ -19,7 +19,7 @@ As an example, the `VehicleWorld` class can be configured to create and drive ei
 # **Module & Class Diagram**
 The **Class Diagram** provides a detailed view of the classes involved, their attributes, methods, and how they relate to each other, particularly focusing on the abstract factory structure.
 
-- <img src = './class diagram.png'>
+<img src = './class diagram.png'>
 
 # **Environment**
 
