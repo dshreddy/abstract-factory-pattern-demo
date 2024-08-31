@@ -16,8 +16,10 @@ This project demonstrates the Abstract Factory pattern by defining a vehicle cre
 
 As an example, the `VehicleWorld` class can be configured to create and drive either a `Car` or a `Bike` by simply switching the factory it uses, demonstrating the flexibility and extensibility of the Abstract Factory pattern.
 
-# **Module & Class Diagram**
+# **Class Diagram**
 The **Class Diagram** provides a detailed view of the classes involved, their attributes, methods, and how they relate to each other, particularly focusing on the abstract factory structure.
+
+> **Note** - `A` represents abstract class & `C` represents concrete class
 
 <img src = './class diagram.png'>
 
