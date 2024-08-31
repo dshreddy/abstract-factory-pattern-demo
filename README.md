@@ -31,7 +31,7 @@ This project is developed and tested using **Visual Studio Community 2022**. Ens
 [More Details](https://dshreddy.github.io/abstract-factory-pattern-demo/)
 
 # References 
-[README](https://github.com/chittur/observer-pattern-demo)
-[Abstract Factory Pattern](https://www.dofactory.com/net/abstract-factory-design-pattern)
-[UML Diagram Maker](https://plantuml.com/)
-[Test Coverage Report Generator](https://reportgenerator.io/getstarted)
+- [README](https://github.com/chittur/observer-pattern-demo)
+- [Abstract Factory Pattern](https://www.dofactory.com/net/abstract-factory-design-pattern)
+- [UML Diagram Maker](https://plantuml.com/)
+- [Test Coverage Report Generator](https://reportgenerator.io/getstarted)
