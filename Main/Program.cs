@@ -14,26 +14,25 @@ using Client;
 
 namespace Main
 {
-    class Program
+    public class Program
     {
         /// <summary>
         /// Entry point into console application.
         /// </summary>
         static void Main()
         {
-            /// <summary>
-            /// Create and drive a car
-            /// </summary>
-            VehicleFactory carFactory = new CarFactory();
-            VehicleWorld carWorld = new(carFactory);
-            carWorld.DriveVehicle();
+            // Create and drive a car
+            DriveVehicle( new CarFactory() );
 
-            /// <summary>
-            /// Create and drive a bike
-            /// </summary>
-            VehicleFactory bikeFactory = new BikeFactory();
-            VehicleWorld bikeWorld = new(bikeFactory);
-            bikeWorld.DriveVehicle();
+            // Create and drive a bike
+            DriveVehicle( new BikeFactory() );
+        }
+
+        public static void DriveVehicle( VehicleFactory factory )
+        {
+            VehicleWorld world = new( factory );
+            world.DriveVehicle();
         }
     }
 }
+

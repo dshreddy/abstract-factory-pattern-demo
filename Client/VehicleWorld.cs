@@ -17,7 +17,7 @@ namespace Client
 {
     public class VehicleWorld
     {
-        private Vehicle _vehicle;
+        private readonly Vehicle _vehicle;
 
         // Constructor
 
