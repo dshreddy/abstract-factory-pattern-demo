@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factories", "Factories\Fact
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products", "Products\Products.csproj", "{66B8453D-A41D-48AE-A2BD-04E15FDEFCBE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Main", "Main\Main.csproj", "{234991C7-41B5-4C91-A9FE-F8E296721C8A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{224BBEFA-0EE6-44F6-B4D0-F5C91C7C1E2C}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -38,10 +36,6 @@ Global
 		{66B8453D-A41D-48AE-A2BD-04E15FDEFCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B8453D-A41D-48AE-A2BD-04E15FDEFCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66B8453D-A41D-48AE-A2BD-04E15FDEFCBE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{234991C7-41B5-4C91-A9FE-F8E296721C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{234991C7-41B5-4C91-A9FE-F8E296721C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{234991C7-41B5-4C91-A9FE-F8E296721C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{234991C7-41B5-4C91-A9FE-F8E296721C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2793BB3E-A8A5-42A8-9DD8-BF42AC9DBCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2793BB3E-A8A5-42A8-9DD8-BF42AC9DBCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2793BB3E-A8A5-42A8-9DD8-BF42AC9DBCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU

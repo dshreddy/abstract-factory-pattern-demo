@@ -22,15 +22,11 @@ namespace Main
         static void Main()
         {
             // Create and drive a car
-            DriveVehicle( new CarFactory() );
+            VehicleWorld world = new( new CarFactory() );
+            world.DriveVehicle();
 
             // Create and drive a bike
-            DriveVehicle( new BikeFactory() );
-        }
-
-        public static void DriveVehicle( VehicleFactory factory )
-        {
-            VehicleWorld world = new( factory );
+            world = new( new BikeFactory());
             world.DriveVehicle();
         }
     }
