@@ -21,7 +21,7 @@ The **Class Diagram** provides a detailed view of the classes involved, their at
 
 > **Note** - `A` represents abstract class & `C` represents concrete class
 
-<img src = './class diagram.png'>
+<img src = './class_diagram.png'>
 
 # **Environment**
 
