@@ -1,12 +1,31 @@
-﻿using Products;
+﻿/******************************************************************************
+ * Filename    = ProductsTests.cs
+ *
+ * Author      = Sai Hemanth Reddy
+ *
+ * Product     = Software Design Patterns
+ * 
+ * Project     = UnitTests
+ *
+ * Description = This file contains unit tests for the product classes, 
+ *               specifically for the Bike and Car classes.
+ *****************************************************************************/
+
+using Products;
 
 namespace UnitTests
 {
+    /// <summary>
+    /// Contains unit tests for the <see cref="Products"/> classes.
+    /// </summary>
     [TestClass]
     public class ProductsTests
     {
+        /// <summary>
+        /// Tests whether the <see cref="Bike"/> class drives correctly.
+        /// </summary>
         [TestMethod]
-        public void Bike_ShouldDriveCorrectly()
+        public void BikeShouldDriveCorrectly()
         {
             // Arrange
             using StringWriter sw = new();
@@ -22,8 +41,11 @@ namespace UnitTests
             Assert.AreEqual( expected , sw.ToString() );
         }
 
+        /// <summary>
+        /// Tests whether the <see cref="Car"/> class drives correctly.
+        /// </summary>
         [TestMethod]
-        public void Car_ShouldDriveCorrectly()
+        public void CarShouldDriveCorrectly()
         {
             // Arrange
             using StringWriter sw = new();

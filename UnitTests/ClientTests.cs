@@ -1,11 +1,29 @@
-﻿using Client;
+﻿/******************************************************************************
+ * Filename    = ClientTests.cs
+ *
+ * Author      = SaiHemanthReddy
+ *
+ * Product     = SoftwareDesignPatterns
+ * 
+ * Project     = UnitTests
+ *
+ * Description = This file contains unit tests for the Client module.
+ *****************************************************************************/
+
+using Client;
 using Factories;
 
 namespace UnitTests
 {
+    /// <summary>
+    /// Contains unit tests for the <see cref="Client"/> classes.
+    /// </summary>
     [TestClass]
     public class ClientTests
     {
+        /// <summary>
+        /// Tests whether the <see cref="VehicleWorld"/> correctly creates and drives a car.
+        /// </summary>
         [TestMethod]
         public void VehicleWorldShouldCreateAndDriveCarCorrectly()
         {
@@ -23,6 +41,9 @@ namespace UnitTests
             Assert.AreEqual( expected , sw.ToString() );
         }
 
+        /// <summary>
+        /// Tests whether the <see cref="VehicleWorld"/> correctly creates and drives a bike.
+        /// </summary>
         [TestMethod]
         public void VehicleWorldShouldCreateAndDriveBikeCorrectly()
         {
